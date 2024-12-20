@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+	<script src="./easy.qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<h1>easyqrcodejs sample</h1>
+	<div id="qrcode"></div>
+
+	<script type="text/javascript">
+		var options = {
+			text: "Some QR Code icon",
+			logo: "./icon.png",
+		};
+		new QRCode(document.getElementById("qrcode"), options);
+	</script>
+</body>
+</html>
